@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actbar_root"
+    android:background="@color/action_bar_bg_color"
+    android:paddingLeft="@dimen/action_bar_padding"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView 
+        android:id="@+id/actbar_title"
+        style="@style/ActionBarTitleText"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"/>
+        
+    <ImageView
+        android:id="@+id/actbar_overflow"
+	    android:visibility="gone"
+        android:src="@drawable/ic_action_overflow"
+        android:background="@drawable/actbar_button"
+        android:contentDescription="@string/default_iv_description" 
+        android:layout_alignParentRight="true"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"/>
+    
+    <ImageView
+        android:id="@+id/actbar_progress"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        android:contentDescription="@string/default_iv_description" 
+        android:layout_toLeftOf="@id/actbar_overflow"
+        android:layout_alignWithParentIfMissing="true"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"/>
+    
+    <FrameLayout
+        android:id="@+id/actbar_custome_view"
+        android:layout_toLeftOf="@+id/actbar_progress"
+        android:layout_toRightOf="@id/actbar_title"
+        android:layout_alignWithParentIfMissing="true"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"/>
+		
+</RelativeLayout>

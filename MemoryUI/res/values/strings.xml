@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="activity_ask_question">Ask question</string>
+    <string name="activity_notification">Notification</string>
+
+    <string name="default_category_label">Default</string>
+
+	<string name="chart_lable_date">Date</string>
+	
+	<string name="alert_dialog_button_cancel">Cancel</string>
+	<string name="alert_dialog_button_confirm">OK</string>
+	
+	<string name="default_notification_title">Notify</string>	
+		
+	<string name="default_ask_board_text">Hello? Welcome Memory ^_^</string>	
+	<string name="default_ask_question_title">Question</string>	
+	
+    <string name="default_bfw_title">Window</string>
+    
+    <string name="default_paper_clip_window_title">Paper Clip</string>
+   
+    <string name="core_app_check_explaination">This application is part of Memory. To launch it, you need: </string>
+	<string name="core_app_check_step_one">1) Download and install Memory</string>
+	<string name="core_app_check_step_two">2) Launch it from Memory</string>
+	<string name="core_app_check_installed">Installed</string>
+	<string name="core_app_check_not_installed">Not installed</string>
+	<string name="core_app_check_button_know">Got it!</string>
+	<string name="core_app_check_not_show_again">Remove this from Launcher</string>
+	<string name="core_app_check_confirm_dialog_title">Alert!</string>
+	<string name="core_app_check_confirm_dialog_message">Check this will remove current tips page from applications list of Launcher.\n\nDo you confrim?</string>
+	
+	<string name="default_searchable_matches_templ">%d matches</string>
+
+	<string name="month_pattern">MMM., yyyy</string>
+	
+	<string name="default_app_label">Loading…</string>
+	
+	<string name="category_exp_label">Experimental</string>
+						
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:background="@drawable/notification_dialog_bg"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" >
+	
+	<TextView 
+	    android:id="@+id/notification_content"
+	    style="@style/NotifyContent"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	
+	<View 
+	    android:id="@+id/notification_title_separator"
+	    android:background="@drawable/list_divider"
+	    android:layout_below="@id/notification_content"
+		android:layout_width="fill_parent"
+		android:layout_height="2px" />
+	
+	<TextView 
+	    android:id="@+id/notification_title"
+	    android:text="@string/default_notification_title"
+	    style="@style/DefaultLabel"
+	    android:layout_below="@id/notification_title_separator"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	
+	<ImageView 
+	    android:id="@+id/notification_close"
+	    android:src="@drawable/ic_close_button"
+	    android:contentDescription="@string/default_iv_description"
+	    android:scaleType="centerInside"
+	    android:layout_alignTop="@id/notification_title"
+		android:layout_alignBottom="@id/notification_title"
+		android:layout_alignParentRight="true"
+		android:layout_width="@dimen/close_button_size"
+		android:layout_height="@dimen/close_button_size" />
+		
+		
+				    
+</RelativeLayout>

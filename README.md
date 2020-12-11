@@ -1,2 +1,4 @@
-# memory
-Public repository for Memory series applications
+dsprivate_memory
+================
+
+Private repos for Memory

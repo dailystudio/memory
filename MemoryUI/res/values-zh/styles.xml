@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources
+	xmlns:core="http://schemas.android.com/apk/res/com.dailystudio.memory" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="ActionBarTitleText" parent="ActionBarText">
+	</style>
+	
+	<style name="AskBoardText" parent="DefaultText">
+	</style>
+
+	<style name="DefaultAppWidgetLabel">
+		<item name="android:textColor">@color/black</item>
+		<item name="android:gravity">left|center_vertical</item>
+		<item name="android:textSize">@dimen/app_widget_label_font_size</item>
+		<item name="android:textStyle">italic</item>
+		<item name="android:padding">@dimen/app_widget_label_padding</item>
+	</style>
+	
+</resources>

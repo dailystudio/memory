@@ -1,0 +1,13 @@
+<resources>
+
+    <integer name="config_defaultAnimTime">500</integer>
+    <integer name="config_slowAnimTime">800</integer>
+    
+    <integer name="config_chartAnimTime">800</integer>
+    
+    <integer name="config_overflowAnimTime">100</integer>
+	<integer name="config_overflowOverlayAnimTime">650</integer>
+    
+    <integer name="config_notifyAnimTime">1000</integer>
+	
+</resources>

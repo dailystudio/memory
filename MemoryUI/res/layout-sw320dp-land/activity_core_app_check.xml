@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:scrollbarThumbVertical="@drawable/scrollbar_handle"
+	android:scrollbarThumbHorizontal="@drawable/scrollbar_handle"
+	android:scrollbarStyle="insideOverlay"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<RelativeLayout
+	    android:background="@drawable/default_content_bg"
+	    android:padding="@dimen/core_app_check_padding"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	
+		<TextView 
+	        android:id="@+id/core_app_check_explain"
+	        style="@style/CoreAppCheckExplainText"
+	        android:text="@string/core_app_check_explaination"
+	        android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+	
+		<LinearLayout 
+		    android:id="@+id/core_app_check_steps"
+		    android:orientation="vertical"
+			android:layout_below="@id/core_app_check_explain"
+	        android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			
+			<TextView 
+		        android:id="@+id/core_app_check_step_one"
+		        style="@style/CoreAppCheckStepText"
+		        android:text="@string/core_app_check_step_one"
+		        android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+		
+			<LinearLayout 
+			    android:layout_gravity="center"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+						
+				<ImageView
+			        android:id="@+id/core_app_check_google_play_badge"
+			        android:src="@drawable/get_it_on_play_logo_large"
+			        android:scaleType="centerInside"
+			        android:contentDescription="@string/default_iv_description"
+			        android:layout_gravity="left"
+			        android:layout_marginLeft="@dimen/core_app_check_badge_margin"
+			        android:layout_width="wrap_content"
+					android:layout_height="fill_parent" />
+				
+				<TextView 
+			        android:id="@+id/core_app_check_memory_installed"
+			        style="@style/CoreAppCheckResultText"
+			        android:text="@string/core_app_check_not_installed"
+			        android:layout_width="wrap_content"
+					android:layout_height="fill_parent" />
+							
+			</LinearLayout>
+				
+			<TextView 
+		        android:id="@+id/core_app_check_step_two"
+		        style="@style/CoreAppCheckStepText"
+		        android:text="@string/core_app_check_step_two"
+		        android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			
+		    <View
+		        android:background="@drawable/list_divider"
+				android:layout_width="fill_parent"
+				android:layout_height="2px" />
+		    
+			<LinearLayout 
+			    android:id="@+id/core_app_check_plugin"
+			    android:padding="@dimen/lv_item_padding"
+			    android:background="@drawable/list_selector_light"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+			        
+				<ImageView
+			        android:id="@+id/core_app_check_plugin_icon"
+			        android:src="@drawable/ic_launcher"
+			        android:scaleType="centerInside"
+			        android:contentDescription="@string/default_iv_description"
+			        android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+				
+				<TextView 
+			        android:id="@+id/core_app_check_plugin_name"
+			        style="@style/CoreAppCheckStepListText"
+			        android:text="@string/error_unknow"
+			        android:layout_width="fill_parent"
+					android:layout_height="fill_parent" />
+							
+			</LinearLayout>
+			
+		    <View
+		        android:background="@drawable/list_divider"
+				android:layout_width="fill_parent"
+				android:layout_height="2px" />
+						
+		</LinearLayout>	    
+		
+		<LinearLayout 
+		    android:orientation="vertical"
+		    android:layout_below="@+id/core_app_check_steps"
+		    android:layout_alignParentBottom="true"
+	        android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+		    
+			<Button
+			    android:id="@+id/core_app_check_know_button"
+			    style="@style/DefaultButton"
+			    android:text="@string/core_app_check_button_know"
+			    android:layout_gravity="center"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<CheckBox 
+			    android:id="@+id/core_app_check_not_show_again_check"
+			    style="@style/DefaultCheck.Light"
+			    android:text="@string/core_app_check_not_show_again"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			
+		</LinearLayout>
+		
+	</RelativeLayout>
+	
+</ScrollView>

@@ -1,0 +1,37 @@
+body { 
+    background-color: #fff; /* Background color */
+    color: #222;	        /* Foreground color used for text */
+    font-family: Helvetica; 
+    font-size: 14px; 
+    margin: 0;	            /* Amount of negative space around the outside of the body */
+    padding: 0;	            /* Amount of negative space around the inside of the body */
+}
+
+#header h1 { 
+    margin: 0;
+    padding: 0;
+} 
+
+#header h1 a {
+    background-color: #262626;
+    border-bottom: 1px solid #666;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+#content p {
+    display: block;
+    font-size: 22px;
+    padding: 0px 10px 0px;
+    text-decoration: none;
+}
+
+#footer p {
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background -->
+    <item>
+    <shape>
+		<solid android:color="@color/action_bar_bg_color" />
+        <corners
+            android:bottomLeftRadius="3dp"
+        	android:bottomRightRadius="3dp" />
+        <stroke android:width="0dp"/>
+    </shape>
+   </item>
+</layer-list>

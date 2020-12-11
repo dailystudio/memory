@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notify_slots_root"
+    android:background="@drawable/notify_pole_and_line"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	
+	<ImageView
+        android:id="@+id/notify_slot_1"
+        android:visibility="invisible"
+        android:contentDescription="@string/default_iv_description"
+        android:src="@drawable/notify_bird_left"
+ 		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	
+	<ImageView
+        android:id="@+id/notify_slot_2"
+        android:visibility="invisible"
+        android:contentDescription="@string/default_iv_description"
+        android:src="@drawable/notify_bird_right"
+        android:layout_toRightOf="@id/notify_slot_1"
+ 		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	
+	<ImageView
+        android:id="@+id/notify_slot_3"
+        android:visibility="invisible"
+        android:contentDescription="@string/default_iv_description"
+        android:src="@drawable/notify_bird_right"
+        android:layout_toRightOf="@id/notify_slot_2"
+ 		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<ImageView
+	    android:id="@+id/notify_slot_4"
+        android:visibility="invisible"
+	    android:contentDescription="@string/default_iv_description"
+	    android:src="@drawable/notify_bird_right"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+  	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"/>
+						
+</RelativeLayout>

@@ -1,0 +1,4 @@
+include ':'
+include 'DevBricks'
+
+project(':DevBricks').projectDir = new File('../../devbricks')

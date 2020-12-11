@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="activity_ask_question">问问</string>
+    <string name="activity_notification">状态提示</string>
+
+    <string name="default_category_label">默认</string>
+
+	<string name="chart_lable_date">日期</string>
+	
+	<string name="alert_dialog_button_cancel">取消</string>
+	<string name="alert_dialog_button_confirm">确定</string>
+	
+	<string name="default_notification_title">通知</string>	
+		
+	<string name="default_ask_board_text">你好呀！欢迎使用“记忆碎片” ^_^</string>	
+	<string name="default_ask_question_title">问题</string>	
+	
+    <string name="default_bfw_title">窗口</string>
+    
+    <string name="default_paper_clip_window_title">便签</string>
+   
+	<string name="core_app_check_explaination">这是“记忆碎片”的一个插件程序。要运行它，您需要执行以下操作：</string>
+	<string name="core_app_check_step_one">1）下载并安装“记忆碎片”</string>
+	<string name="core_app_check_step_two">2） 在“记忆碎片”中启动本应用</string>
+	<string name="core_app_check_installed">已安装</string>
+	<string name="core_app_check_not_installed">未安装</string>
+	<string name="core_app_check_button_know">知道了！</string>
+	<string name="core_app_check_not_show_again">从桌面主程序应用列表中删除</string>
+	<string name="core_app_check_confirm_dialog_title">注意！</string>
+	<string name="core_app_check_confirm_dialog_message">选中此项会将当前的帮助页面的图标从桌面主程序的应用列表中删除.\n\n您确定要这么做吗?</string>
+				
+	<string name="default_searchable_matches_templ">有%d符合要求</string>
+
+	<string name="default_nodata_prompt">暂时没有数据哦~\n╮(╯_╰)╭</string>
+
+	<string name="month_pattern">yyyy年MMM</string>
+	
+	<string name="default_app_label">加载…</string>
+	
+	<string name="category_exp_label">实验项目</string>
+							
+</resources>

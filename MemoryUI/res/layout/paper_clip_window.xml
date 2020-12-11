@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/paper_clip_window"
+	android:clickable="true"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+	
+	<ImageView
+    	android:id="@+id/paper_clip_close_button"
+    	android:src="@drawable/paper_clip_window_close"
+    	android:contentDescription="@string/default_iv_description"
+    	android:layout_alignParentRight="true"
+    	android:layout_width="wrap_content" 
+  		android:layout_height="wrap_content" />
+    	
+	<ImageView
+    	android:id="@+id/paper_clip_icon"
+    	android:src="@drawable/ic_launcher"
+    	android:scaleType="centerInside"
+    	android:visibility="gone"
+    	android:contentDescription="@string/default_iv_description"
+        android:layout_marginLeft="@dimen/paper_clip_title_hmargin"
+        android:layout_marginTop="@dimen/paper_clip_title_vmargin"
+    	android:layout_width="wrap_content" 
+  		android:layout_height="@dimen/paper_clip_title_height" />
+    	
+	<TextView 
+    	android:id="@+id/paper_clip_title"
+    	style="@style/PaperClipTitle"
+    	android:text="@string/default_paper_clip_window_title"
+        android:layout_marginTop="@dimen/paper_clip_title_vmargin"
+    	android:layout_toRightOf="@id/paper_clip_icon"
+    	android:layout_toLeftOf="@id/paper_clip_close_button"
+    	android:layout_width="fill_parent" 
+  		android:layout_height="@dimen/paper_clip_title_height" />
+	
+    <View 
+        android:id="@+id/paper_clip_title_separator"
+        android:background="@drawable/list_divider"
+        android:layout_marginLeft="@dimen/paper_clip_content_hpadding"
+        android:layout_marginRight="@dimen/paper_clip_content_hpadding"
+        android:layout_below="@id/paper_clip_title"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="2px"/>
+    
+	<FrameLayout 
+        android:id="@+id/paper_clip_content"
+        android:paddingLeft="@dimen/paper_clip_content_hpadding"
+        android:paddingRight="@dimen/paper_clip_content_hpadding"
+        android:paddingBottom="@dimen/paper_clip_content_vpadding"
+        android:layout_below="@id/paper_clip_title_separator"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"/>
+	
+</RelativeLayout>

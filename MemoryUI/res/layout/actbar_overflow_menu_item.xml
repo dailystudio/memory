@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actbar_overflow_menu_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+   
+    <ImageView
+        android:id="@+id/menu_item_icon"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/default_iv_description"
+        android:layout_centerVertical="true"
+ 		android:layout_width="@dimen/actbar_overflow_menu_icon_width"
+		android:layout_height="@dimen/actbar_overflow_menu_icon_height"/>
+		
+    <TextView
+        android:id="@+id/menu_item_text"
+        style="@style/ActionBarOverflowMenuItemText"
+        android:text="@string/default_category_label"
+        android:layout_toRightOf="@id/menu_item_icon"
+        android:layout_centerVertical="true"
+ 		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+		
+</RelativeLayout>
